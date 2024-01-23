@@ -8,5 +8,11 @@ async function getPkmn() {
 async function mi_peticion(){
     const pkmn = await getPkmn()
     console.log(pkmn)
+    const url = 
 }
 mi_peticion()
+
+document.querySelector("img-pkm")
+let url = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+
+in progress
